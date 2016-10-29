@@ -3,7 +3,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'kktix-api/version'
 
 Gem::Specification.new do |s|
-  s.name        =  'kktix-api'
+  s.name        =  'kktix_api'
   s.version     =  KktixEvent::VERSION
 
   s.summary     =  'Gets event content of an organization from KKTIX'
@@ -28,5 +28,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop', '~> 0.42'
 
   s.homepage    =  'https://github.com/twentyfour7/kktix-api'
-  s.license     =  'Apache'
+  s.license     =  'Apache-2.0'
 end
